@@ -99,7 +99,7 @@ int main (int argc, char * const argv[])
 			datatest = read_problem(argv[argc-1]);
 			
 			numunits[0] = datatrain->numdims;
-			weights = DBN_deepauto(datatrain->data,datatest->data, datatrain->numrows, datatest->numrows, maxepochpre, numlayers, numunits, batchsizepre, typesoflayers, &params);
+			weights = DBN_deepauto(datatrain->data,datatrain->numrows,maxepochpre, numlayers, numunits, batchsizepre, typesoflayers, &params);
 			break;
 	}
 	

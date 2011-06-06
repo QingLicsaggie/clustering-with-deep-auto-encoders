@@ -129,8 +129,8 @@ typedef struct weights_data
 } weights_str;
 
 extern weights_str * DBN_deepauto(double **datatrain, int numrows, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams);
-extern weights_str * DBN_classify(double **datatrain, double **datatest, int *targetstrain, int *targetstest, int numrows, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams);
-extern weights_str * DBN_regress(double **datatrain, double **datatest, double *targetstrain, double *targetstest, int numrows, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams);
+extern weights_str * DBN_classify(double **datatrain, double **datatest, int *targetstrain, int *targetstest, int numrowstrain, int numrowstest, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams);
+extern weights_str * DBN_regress(double **datatrain, double **datatest, double *targetstrain, double *targetstest, int numrowstrain, int numrowstest, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams);
 
 extern double SMD(double **data, int numrows, double *weights, int *offset_weights, int *Dim, int numlayers, char typemiddle, char typetop, SMDparams * params);
 

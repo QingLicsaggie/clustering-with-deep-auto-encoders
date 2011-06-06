@@ -4,15 +4,15 @@
 SimpleRNG *rng;
 
 void (*RBMCODEFUNCS[3])(double **, double *, double *, double *, double *, double *, double *, double *, double *, double *, double *, double *, double *, int, int , int , int ) = {RBM_CORECODE_SM, RBM_CORECODE_LG, RBM_CORECODE_GA};
-	
-weights_str * DBN_deepauto(double **datatrain, double **datatest, int numrowstrain, int numrowstest, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams)
+
+weights_str * DBN_deepauto(double **datatrain, int numrows, int maxepoch, int numlayers, int *numunits, int batchsizepre, char * typesoflayers, SMDparams *backpropparams)
 {
 	int i,j;
 
 	rng = new SimpleRNG();
 	rng->SetSeedFromSystemTime();
 	
-	batchdata_str * batchdata = createbatch(datatrain, numrowstrain, batchsizepre,numunits[0]);	
+	batchdata_str * batchdata = createbatch(datatrain, numrows, batchsizepre,numunits[0]);	
 
 	int *offsetstoweightvector_botthalf = Malloc(int,2*numlayers-1);    //array of offsets to the start of the weight matrix that corresponds to a given level in the encoding bottom part 
 	int *offsetstoweightvector_tophalf = Malloc(int,numlayers);		//array of offsets to the start of the weight matrix that corresponds to a given level in the Decoding top part (counting from the start of the Decoding part)
@@ -65,7 +65,7 @@ weights_str * DBN_deepauto(double **datatrain, double **datatest, int numrowstra
 		
 	numlayers = 2*numlayers-1;
 
-	double f = SMD(datatrain, numrowstrain, weights, offsetstoweightvector_botthalf, l,numlayers, typesoflayers[2],typesoflayers[0],backpropparams);
+	double f = SMD(datatrain, numrows, weights, offsetstoweightvector_botthalf, l,numlayers, typesoflayers[2],typesoflayers[0],backpropparams);
 	printf("Reconstruction error is: %f\n",f);
 
 	weights_str * weightsdata = Malloc(weights_str,1);

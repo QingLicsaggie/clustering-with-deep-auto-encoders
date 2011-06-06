@@ -264,11 +264,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>08FB7794FE84155DC02AAC07</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -310,7 +312,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>encode_code.R</string>
+								<string>CG_ENCODE_CLUST.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,18 +320,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>encode_code.R</string>
+										<string>CG_ENCODE_CLUST.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B210A3D61397F4B3004E0D68</string>
+										<string>B257CE21139D65C400BFE4B9</string>
 										<key>history</key>
 										<array>
-											<string>B210A3D01397F4B3004E0D68</string>
-											<string>B210A3D11397F4B3004E0D68</string>
-											<string>B210A3D21397F4B3004E0D68</string>
-											<string>B210A3D31397F4B3004E0D68</string>
-											<string>B210A3D41397F4B3004E0D68</string>
+											<string>B257CE1A139D65C400BFE4B9</string>
+											<string>B257CE1B139D65C400BFE4B9</string>
+											<string>B257CE1C139D65C400BFE4B9</string>
+											<string>B257CE1D139D65C400BFE4B9</string>
+											<string>B257CE1E139D65C400BFE4B9</string>
+											<string>B257CE1F139D65C400BFE4B9</string>
+											<string>B257CE20139D65C400BFE4B9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -341,14 +345,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1146, 566}}</string>
+								<string>{{0, 0}, {1146, 561}}</string>
 								<key>RubberWindowFrame</key>
 								<string>188 298 1354 793 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>566pt</string>
+							<string>561pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -361,14 +365,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 571}, {1146, 181}}</string>
+								<string>{{0, 566}, {1146, 186}}</string>
 								<key>RubberWindowFrame</key>
 								<string>188 298 1354 793 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>186pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -387,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B210A3D81397F4B3004E0D68</string>
+				<string>B257CE22139D65C400BFE4B9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B210A3D91397F4B3004E0D68</string>
+				<string>B257CE23139D65C400BFE4B9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,8 +531,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>B257CE24139D65C400BFE4B9</string>
 		<string>B210A3DB1397F4B3004E0D68</string>
-		<string>/Users/khovsep/Dropbox/DBN_Clust copy 2/DBN_Clust.xcodeproj</string>
+		<string>/Users/khovsep/Projects/rbm-dbn-smd/DBN_Clust.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>188 298 1354 793 0 0 1920 1178 </string>
@@ -552,23 +557,25 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>DBN_main.cpp</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {1920, 472}}</string>
 								<key>RubberWindowFrame</key>
-								<string>587 523 500 500 0 0 1920 1178 </string>
+								<string>0 147 1920 1031 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>472pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -583,18 +590,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 477}, {1920, 513}}</string>
 								<key>RubberWindowFrame</key>
-								<string>587 523 500 500 0 0 1920 1178 </string>
+								<string>0 147 1920 1031 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
 							<key>Proportion</key>
-							<string>236pt</string>
+							<string>513pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>990pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -608,7 +615,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B210A3DB1397F4B3004E0D68</string>
-				<string>B210A3DC1397F4B3004E0D68</string>
+				<string>B257CE15139D65B300BFE4B9</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -617,7 +624,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>587 523 500 500 0 0 1920 1178 </string>
+			<string>0 147 1920 1031 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>B210A3DB1397F4B3004E0D68</string>
 			<key>WindowToolIsVisible</key>
