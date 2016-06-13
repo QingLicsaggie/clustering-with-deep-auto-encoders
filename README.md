@@ -2,7 +2,8 @@ This is a woefully short README.  More of a 200 word summary really.
 
 This in a fast implementation of a clustering algorithm that's based on the well known deep auto-encoder, proposed by G. E. Hinton and R. R. Salakhutdinov (see http://www.cs.toronto.edu/~rsalakhu/papers/science.pdf).
 
-The implementation allows three types of neurons in any layer of the auto-encoder:</b>
+The implementation allows three types of neurons in any layer of the auto-encoder:
+
 1.  Linear nodes with the Gaussian activation function
 2.  Binary nodes with the logistic activation function
 3.  Categorical nodes with the soft-max activation function
