@@ -1,6 +1,6 @@
 This is a woefully short README.  More of a 200 word summary really.  
 
-This in a fast implementation of a clustering algorithm that's based on the well known deep auto-encoder, proposed by G. E. Hinton* and R. R. Salakhutdinov (see http://www.cs.toronto.edu/~rsalakhu/papers/science.pdf).
+This in a fast implementation of a clustering algorithm that's based on the well known deep auto-encoder, proposed by G. E. Hinton and R. R. Salakhutdinov (see http://www.cs.toronto.edu/~rsalakhu/papers/science.pdf).
 
 The implementation allows three types of neurons in any layer of the auto-encoder:
 1.  Linear nodes with the Gaussian activation function
@@ -13,4 +13,4 @@ The fine-tuning stage of the auto-encoder training using the Stochastic Meta Des
 
 The implementation is built on top of Apple's Accelerate framework, using the fast vecLib and BLAS libraries. Thus, for now this implementation works only on OS X and iOS.  However, it should be very easy to find analogues of these libraries for Windows or Linux.
 
-Furthermore, the implementation makes use of the OpenMP platform for extensive parallelization of the algorithm (essentially every portion that can be parallelized is parallelized).  
+Furthermore, the implementation makes use of the OpenMP platform for extensive parallelization of the algorithm (essentially every portion that can be parallelized is parallelized).
